@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./social-media-icons.css">
+    <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="background: #000;">
+    <header>
+        <section>
+            <a href="https://www.linkedin.com/in/yuvraj-sood-748192235/" id="logo" target="_blank">Yuvraj Sood</a>
+
+            <label for="toggle-1" class="toggle-menu"><ul><li></li> <li></li> <li></li></ul></label>
+            <input type="checkbox" id="toggle-1">
+
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="icon-home"></i>Home</a></li>
+                    <li><a href="#about"><i class="icon-user"></i>About</a></li>
+                    <li><a href="#portfolio"><i class="icon-thumbs-up-alt"></i>Portfolio</a></li>
+                    <li><a href="#services"><i class="icon-gear"></i>Services</a></li>
+                    <li><a href="#contact"><i class="icon-phone"></i>Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+    </section>
+    <div class="row" id="about">
+        <div class="column">
+            <img src="images/YuvrajSood.jpeg" alt="" width="100%" style="margin-left: 100px;">
+        </div>
+        <div class="column" style="margin-left:120px;margin-top: 135px;">
+            <h1 style="color:#fff;font-size:40px;">ABOUT ME</h1>
+
+            <p style="color:#fff;text-align:center;font-size:20px;">I am a full stack developer and my hobbies are that i like to play badminton, pc and mobile games,etc.</p>
+        </div>
+    </div>
+    <section>
+        <div class="container" style="margin-top: 150px;" id="portfolio">
+
+            <h1 class="heading" style="color:#fff;">PORTFOLIO</h1>
+
+            <div class="gallery">
+
+                <div class="gallery-item">
+                    <a href="https://yuvrajsood.github.io/sunsetrise/"><img class="gallery-image" src="images/cycleproject.jpg" alt="cycleproject"></a>
+                </div>
+
+                <div class="gallery-item">
+                    <a href="https://yuvrajsood.github.io/Fullplaterestuarant/"><img class="gallery-image" src="images/restaurant.jpg" alt="fullplaterestaurant"></a>
+                </div>
+
+                <div class="gallery-item">
+                    <a href="https://yuvrajsood.github.io/djsatvik1/"><img class="gallery-image" src="images/dj.jpg" alt="djsatvik"></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <br>
+    <section>
+        <h2 style="color:#fff;text-align:center;font-size:40px;margin-top:100px;" id="services">SERVICES</h2>
+        <div class="container" style="margin-top: 100px;">
+            <div class="column">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img class="gallery-image" src="images/websitedevelopment.jpeg" alt="">
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="images/websitedevelopment.jpeg" alt="">
+                            <h3>Website Development</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <h2 style="color: #fff;">I am a full stack web developer and i am good at PHP, Mysql, Bootstrap.</h2>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section>
+        <h2 style="text-align: center;color:#fff;font-size:40px;" id="contact">CONTACT</h2>
+        <div class="container-contact">
+            <div class="wrap-contact">
+
+                <form name="contact" class="contact-form validate-form" method="post" action="thanks.php">
+
+                    <div class="wrap-input validate-input" data-validate="Please enter your name">
+                        <input class="input" type="text" name="name" placeholder="Full Name" required>
+                    </div>
+
+                    <div class="wrap-input validate-input" data-validate="Please enter your email">
+                        <input class="input" type="text" name="email" placeholder="E-mail" required>
+                    </div>
+
+                    <div class="wrap-input validate-input" data-validate="Please enter your message">
+                        <textarea class="input" type="text" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+
+                    <div class="container-contact-form-btn">
+                        <button type="submit" name="submit" class="contact-form-btn">
+                    <span>Send</span>
+                  </button>
+                    </div>
+
+                    <div class="grid-container">
+                        <div class="item1 left-align"><i class="fa fa-lg fa-map-marker-alt"></i> 4517 Washington Ave, Manchester, Kentucky 39495</div>
+                        <div class="item4 right-align"><i class="fa fa-lg fa-phone"></i> (123) 456-7890<br>(123) 456-7890</div>
+
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+        </div>
+
+        </div>
+    </section>
+    <footer>
+        <div class="social-menu">
+            <ul>
+                <li><a href="https://github.com/yuvrajsood" target="blank"><i class="fab fa-github"></i></i></a></li>
+                <li><a href="https://www.instagram.com/yuvraj.sood.100/" target="blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/yuvraj-sood-748192235/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://codepen.io/Yuvi-sood1"><i class="fab fa-codepen" target="blank"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
